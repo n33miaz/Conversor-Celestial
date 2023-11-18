@@ -1,0 +1,16 @@
+@media (max-width: 926px) {
+    h1 {
+        font-size: 20px;
+    }
+    .container {
+        max-width: 300px;
+    }
+    option {
+        font-size: 9px;
+        appearance: none;
+        text-align-last: center;
+    }
+    select {
+        font-size: 14px;
+    }
+}

@@ -4,13 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de Moedas</title>
     <link rel="stylesheet" href="./src/styles.css">
+    <link rel="stylesheet" href="./src/responvise.css">
+    <link rel="icon" href="./src/assets/gear-solid.svg" type="image/svg+xml">
+    <title>Conversores</title>
 </head>
 
 <body>
+    <div class="container" id="conversorContainer">
+        <h1>Conversor Celestial</h1>
+        <button id="comecarButton" onclick="comecarConversores()">Começar</button>
 
+        <div id="opcoesConversor" style="display: none;">
+            <label for="seletorConversor">Selecione o Conversor:</label>
+            <select id="seletorConversor" onchange="mudarConversor()">
+                <option value="moeda">Conversor de Moedas</option>
+                <option value="temperatura">Conversor de Temperatura</option>
+                <option value="interestelar">Conversor Interestelar</option>
+            </select>
+
+            <div id="entradaDados">
+                <!-- Este bloco será preenchido dinamicamente pelo JavaScript -->
+            </div>
+
+            <button onclick="realizarConversao()"><strong>Converter</strong></button>
+
+            <div id="resultado"></div>
+        </div>
+    </div>
+
+    <script src="./src/script.js"></script>
 </body>
-<script src="./src/script.js"></script>
 
 </html>
