@@ -3,9 +3,9 @@
 Este projeto faz parte da 1ª aula do evento "Imersão Dev" da Alura, onde desenvolvemos um conversor celestial interativo. O objetivo é praticar conceitos de HTML, CSS e JavaScript, proporcionando ao usuário a capacidade de converter moedas, temperaturas e explorar distâncias interestelares.
 
 **Link dos Outros Projetos:**
-- 1º aula: [Conversor Celestial](https://github.com/seu-usuario/Conversor-Celestial)
-- 2º aula: [Desafio do Número Secreto](https://github.com/seu-usuario/Desafio-do-Numero-Secreto)
-- 3º aula: [Coisas Daora](https://github.com/seu-usuario/Coisas-Daora)
+- 1º aula: [Conversor Celestial](https://github.com/n33miaz/Conversor-Celestial)
+- 2º aula: [Desafio do Número Secreto](https://github.com/n33miaz/Desafio-do-Numero-Secreto)
+- 3º aula: [Coisas Daora](https://github.com/n33miaz/Coisas-Daora)
 - 4º aula:
 - 5º aula:
 
